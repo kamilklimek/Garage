@@ -1,0 +1,280 @@
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ApplicationInsights.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.dll.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.pdb
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.exe
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.exe.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.rsp
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.exe
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.exe.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.rsp
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.AppContext.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Collections.Immutable.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Console.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.Process.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.Compression.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.Pipes.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Reflection.Metadata.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.AccessControl.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Claims.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Threading.Thread.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.ValueTuple.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XPath.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.exe
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.exe.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.rsp
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\VBCSCompiler.exe
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\VBCSCompiler.exe.config
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Antlr3.Runtime.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.SqlServer.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.DependencyCollector.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Web.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.WindowsServer.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.ApplicationInsights.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Google.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Web.Infrastructure.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Newtonsoft.Json.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Owin.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Helpers.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Mvc.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Optimization.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Razor.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Deployment.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Razor.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\WebGrease.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Helpers.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Mvc.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Optimization.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Razor.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Deployment.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Razor.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Antlr3.Runtime.pdb
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Newtonsoft.Json.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.SqlServer.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Google.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.ApplicationInsights.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.DependencyCollector.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.WindowsServer.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Web.xml
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Helpers.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Mvc.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Optimization.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Razor.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.Deployment.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.Razor.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csprojResolveAssemblyReference.cache
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.Migrations.PierwszaMigracja.resources
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.GenerateResource.cache
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.CoreCompileInputs.cache
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.CopyComplete
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.dll
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.pdb
+E:\Wszelakie programowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.Migrations.Dodanieconstraintownawszystkietabele.resources
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ApplicationInsights.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.dll.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\ClassicGarageAuth.pdb
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.exe
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.exe.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csc.rsp
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.exe
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.exe.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\csi.rsp
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.AppContext.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Collections.Immutable.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Console.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.Process.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.Compression.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.IO.Pipes.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Reflection.Metadata.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.AccessControl.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Claims.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Security.Principal.Windows.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Threading.Thread.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.ValueTuple.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XPath.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.exe
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.exe.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\vbc.rsp
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\VBCSCompiler.exe
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\roslyn\VBCSCompiler.exe.config
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Antlr3.Runtime.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.SqlServer.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.DependencyCollector.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Web.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.WindowsServer.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.ApplicationInsights.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Core.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Cookies.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Facebook.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Google.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.OAuth.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Twitter.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Web.Infrastructure.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Newtonsoft.Json.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Owin.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Helpers.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Mvc.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Optimization.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Razor.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Deployment.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Razor.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\WebGrease.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Helpers.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Mvc.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Optimization.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.Razor.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Deployment.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\System.Web.WebPages.Razor.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Antlr3.Runtime.pdb
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Newtonsoft.Json.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\EntityFramework.SqlServer.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Core.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Facebook.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Cookies.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.OAuth.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Google.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.Twitter.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.ApplicationInsights.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.DependencyCollector.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.WindowsServer.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\Microsoft.AI.Web.xml
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Helpers.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Mvc.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Optimization.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.Razor.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.Deployment.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\System.Web.WebPages.Razor.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csprojResolveAssemblyReference.cache
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.CoreCompileInputs.cache
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.CopyComplete
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.dll
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.pdb
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.Migrations.RevertChanges.resources
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.csproj.GenerateResource.cache
+E:\WszelkieProgramowanie\C#\ClassicGarageAuth\ClassicGarageAuth\obj\Debug\ClassicGarageAuth.Migrations.AddVisitorCounterToAds.resources

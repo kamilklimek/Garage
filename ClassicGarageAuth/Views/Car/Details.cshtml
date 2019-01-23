@@ -1,0 +1,90 @@
+﻿@model ClassicGarageAuth.Models.CarModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Make @Model.Model</h2>
+
+<div>
+
+    <button class="btn btn-default no-link">
+        @Html.ActionLink("Wróć", "Owner", "Car")
+    </button>
+    <hr />
+    <div class="car-details">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="@Model.Picture" />
+            </div>
+            <div class="col-md-8">
+                <p><b>Rok produkcji:</b> @Model.Year</p>
+                <p><b>VIN:</b> @Model.VIN</p>
+                <p><b>Cena zakupu:</b> @Model.PurchaseAmount</p>
+                <p><b>Cena sprzedaży</b> @Model.SalesAmount</p>
+                <p><b>Data zakupu:</b> @Model.PurchaseDate.ToShortDateString()</p>
+                <p>
+                    <b>
+                        Data sprzedaży:
+                    </b>
+                    @{
+                        if (@Model.SalesDate.Equals(new DateTime(1900, 1, 1)))
+                        {
+                            <span>-</span>
+                        }
+                        else
+                        {
+                            @Model.SalesDate.ToShortDateString()
+                        }
+                    }
+                </p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Naprawy</h3>
+                @if (Model.RepairModels.Count == 0)
+                {
+                    <span>Samochód do tej pory nie był naprawiany.</span>
+                }
+                <ul>
+                    @foreach (var repair in Model.RepairModels)
+                    {
+                        <li>
+                            <h4>@Html.ActionLink(@repair.Name, "Details/" + repair.ID, "Repair")</h4>
+                            <p>@repair.Description</p>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Części</h3>
+                @if (Model.PartModel.Count == 0)
+                {
+                    <span>Nie znaleziono żadnych części przypisanych do samochodu.</span>
+                }
+                <ul>
+                    @foreach (var part in Model.PartModel)
+                    {
+                        <li>
+                            <h4>@Html.ActionLink(@part.PartName, "Details/" + part.ID, "Part")</h4>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="car-details-actions">
+    <button class="btn btn-default no-link">
+        @Html.ActionLink("Edytuj", "Edit", new { id = Model.ID })
+    </button>
+    <button class="btn btn-danger no-link link-white">
+        @Html.ActionLink("Usuń", "Delete", new { id = Model.ID })
+    </button>
+</div>

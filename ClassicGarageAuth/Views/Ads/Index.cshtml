@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ClassicGarageAuth.Models.AdsModel>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Aktualne ogłoszenia samochodów</h2>
+
+<button class="btn btn-primary no-link link-white ads-add">
+    @Html.ActionLink("Dodaj ogłoszenie", "Create")
+</button>
+<table class="table ads-table">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            Nazwa ogłoszenia
+        </th>
+        <th>
+            Cena
+        </th>
+        @using Microsoft.AspNet.Identity
+        @if (Request.IsAuthenticated)
+        {
+            <th></th>
+        }
+    </tr>
+
+    @foreach (var Ad in Model)
+    {
+        <tr>
+            <td>
+                <img src="@Ad.CarModels.Picture" alt="Zdjecię samochodu" />
+            </td>
+            <td>
+                @Html.ActionLink(Ad.title, "Details/" + Ad.ID)
+            </td>
+            <td>
+                @Ad.price
+            </td>
+            @if (Request.IsAuthenticated)
+            {
+                <td class="ads-actions">
+
+                    @foreach (var car in ViewBag.MyCars)
+                    {
+                        if (car.ID == Ad.CarModelsID)
+                        {
+                            var result = "Aktywuj";
+                            var cssResult = "btn-primary";
+                            if (Ad.IsActive)
+                            {
+                                result = "Dezaktywuj";
+                                cssResult = "btn-warning";
+                            }
+
+                            <button type="button" class="btn @cssResult no-link link-white">
+                                @Html.ActionLink(result, "State/" + Ad.ID, "Ads")
+                            </button>
+                            <button type="button" class="btn btn-default no-link">
+                                @Html.ActionLink("Edytuj", "Edit/" + Ad.ID, "Ads")
+                            </button>
+                            <button type="button" class="btn btn-danger no-link link-white">
+                                @Html.ActionLink("Usuń", "Delete/" + Ad.ID, "Ads")
+                            </button>
+                            break;
+
+                        }
+
+
+                    }
+                </td>
+            }
+        </tr>
+    }
+
+
+</table>

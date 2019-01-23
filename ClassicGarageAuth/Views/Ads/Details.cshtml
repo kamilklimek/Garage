@@ -1,0 +1,56 @@
+﻿@model ClassicGarageAuth.Models.AdsModel
+
+@{
+    ViewBag.Title = Model.title;
+}
+
+<div class="ads-details">
+    <p>
+        <button class="btn btn-default">
+            @Html.ActionLink("Lista ogłoszeń", "Index")
+        </button>
+        
+        @{
+        if (ViewBag.OwnerLogged)
+        {
+            <button class="btn btn-primary">
+                @Html.ActionLink("Edytuj ogłoszenie", "Edit", new { id = Model.ID })
+            </button>
+    }
+        }
+    </p>
+    <hr />
+    <div class="ad-details__details">
+        <img src="@Model.CarModels.Picture" alt="Zdjecie samochodu" />
+        <h2>@Model.title</h2>
+        <p><b>Cena:</b> @Model.price zł</p>
+        <p>
+            <b>Status:</b>
+            @{
+                if (Model.IsActive)
+                {
+                    <span>Aktywne</span>
+                }
+                else
+                {
+                    <span>Nieaktywne</span>
+                }
+            }
+        </p>
+        <hr />
+        <h3>Informacje o sprzedawcy</h3>
+        <p>
+            <b>Imię i nazwisko: </b>
+            @Model.CarModels.Owner.FirstName
+            @Model.CarModels.Owner.LastName
+        </p>
+        <p>
+            <b>Numer telefonu: </b>
+            @Model.CarModels.Owner.PhoneNumber
+        </p>
+        <p>
+            <b>Adres email:</b>
+            @Model.CarModels.Owner.Email
+        </p>
+    </div>
+</div>

@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Strong główna";
+}
+
+<div class="header">
+    <div class="header__bg">
+        <div class="header__title">
+            <h1>Giełda klasyków</h1>
+        </div>
+        <p>
+            <ul class="header__list">
+                <li>Zorganizuj swoją pracę</li>
+                <li>Sprzedaj swój samochód</li>
+                <li>Kup samochód</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+<div class="row info-servis">
+    <div class="col-md-4">
+        <h2>Samochody</h2>
+        <img src="~/Content/Images/cars.jpeg" alt="Samochód" />
+        <p class="info">
+            Zapisz na swoim profilu wszystkie ważne informacje na temat swojego samochodu m.in takie jak: VIN, rok produkcji, Marka i Model.
+        </p>
+        <p class="btn btn-default">@Html.ActionLink("Stwórz swój pierwszy samochód", "Create", "Car")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Części</h2>
+        <img src="~/Content/Images/parts.jpeg" alt="Części" />
+
+        <p class="info">Zarządzaj częściami swoich samochód. Zapisuj daty i ceny sprzedaży oraz kupna. Przeglądaj bilans swoich wydatków na części.</p>
+        <p class="btn btn-default">@Html.ActionLink("Dodaj części", "Create", "Part")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Naprawy</h2>
+        <img src="~/Content/Images/repairs.jpeg" alt="Naprawy" />
+
+        <p class="info">Notuj wszystkie naprawy dotyczące samochód oraz zbieraj w jednym miejscu swojego wydatki.</p>
+        <p class="btn btn-default">@Html.ActionLink("Dodaj naprawy", "Create", "Repair")</p>
+    </div>
+</div>
+
+@if (ViewBag.PopularAds.Count > 0)
+{
+    <div class="row">
+        <h2>Najpopularniejsze ogłoszenia</h2>
+        <ul class="popular-ads list">
+            @{
+                var counter = 0;
+                foreach (var ad in ViewBag.PopularAds)
+                {
+                    var title = ad.title;
+                    if (counter < 3)
+                    {
+                        counter += 1;
+                        <li>
+                            <img src="@ad.CarModels.Picture" alt="Samochód @ad.CarModels.Model @ad.CarModels.Make" />
+                            <h3><a href="/Ads/Details/@ad.ID">@ad.title</a></h3>
+                            <p class="price">Cena: @ad.price zł</p>
+                        </li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+}

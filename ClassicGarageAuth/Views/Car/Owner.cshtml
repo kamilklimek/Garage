@@ -1,0 +1,87 @@
+﻿@model IEnumerable<ClassicGarageAuth.Models.CarModel>
+
+@{
+    ViewBag.Title = "Owner";
+}
+
+<h2>Moje samochody</h2>
+
+<button class="btn btn-primary no-link link-white create-car-btn">
+    @Html.ActionLink("Dodaj samochód", "Create")
+</button>
+<table class="table car-table">
+    <tr>
+        <th></th>
+        <th>
+            Nazwa samochodu
+        </th>
+        <th>
+            Rok produkcji
+        </th>
+        <th>
+            VIN
+        </th>
+        <th>
+            Cena zakupu
+        </th>
+        <th>
+            Cena sprzedaży
+        </th>
+        <th>
+            Data zakupu
+        </th>
+        <th>
+            Data sprzedaży
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="@item.Picture" />
+        </td>
+        <td>
+            @Html.ActionLink(@item.Make + " " + @item.Model, "Details/" + item.ID)
+        </td>
+        <td>
+            @item.Year
+        </td>
+        <td>
+            @item.VIN
+        </td>
+
+        <td>
+            @item.PurchaseAmount zł
+        </td>
+
+        <td>
+            @item.SalesAmount zł
+        </td>
+        <td>
+            @item.PurchaseDate.ToShortDateString()
+        </td>
+        <td>
+            @{
+                if (item.SalesDate.Equals(new DateTime(1900, 1, 1)))
+                {
+                    <span>-</span>
+                }
+                else
+                {
+                    @item.SalesDate.ToShortDateString()
+                }
+            }
+        </td>
+        <td>
+            <button class="btn btn-default no-link">
+                @Html.ActionLink("Edytuj", "Edit", new { id = item.ID })
+            </button>
+            <button class="btn btn-danger no-link link-white">
+                @Html.ActionLink("Usuń", "Delete", new { id = item.ID })
+            </button>
+        </td>
+    </tr>
+}
+
+</table>

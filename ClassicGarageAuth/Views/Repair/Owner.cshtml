@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ClassicGarageAuth.Models.CarModel>
+
+@{
+    ViewBag.Title = "Owner";
+}
+
+<h2>Moje naprawy</h2>
+
+
+<button type="button" class="btn btn-primary no-link link-white upper-btn">
+    @Html.ActionLink("Dodaj naprawę", "Create")
+</button>
+<h3>Całkowity koszt napraw: @ViewBag.TotalCostsOfRepair zł</h3>
+<table class="table">
+    <tr>
+        <th>
+            Naprawa
+        </th>
+        <th>
+            Opis naprawy
+        </th>
+        <th>
+            Samochód
+        </th>
+        <th>
+            Koszt naprawy
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var Car in Model)
+    {
+        foreach (var repair in Car.RepairModels)
+        {
+            <tr>
+ 
+                <td>
+                    @Html.ActionLink(repair.Name, "Details/" + repair.ID)
+                </td>
+                <td>
+                    @repair.Description
+                </td>
+                <td>
+                    @Html.ActionLink(Car.Make + " " + Car.Model, "Details/" + Car.ID, "Car")
+                </td>
+                <td>
+                    @repair.CostAmount zł
+                </td>
+                <td class="ads-actions">
+                    <button type="button" class="btn btn-default no-link">
+                        @Html.ActionLink("Edytuj", "Edit/" + repair.ID)
+                    </button>
+                    <button type="button" class="btn btn-danger no-link link-white">
+                        @Html.ActionLink("Usuń", "Delete/" + repair.ID)
+                    </button>
+                </td>
+            </tr>
+        }
+    }
+
+</table>

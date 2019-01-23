@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ClassicGarageAuth.Models.CarModel>
+
+@{
+    ViewBag.Title = "Owner";
+}
+
+<h2>Moje części</h2>
+
+
+<button type="button" class="btn btn-primary no-link link-white upper-btn">
+    @Html.ActionLink("Dodaj część", "Create")
+</button>
+<h3>Bilans za części: @ViewBag.TotalCostOfParts zł</h3>
+<table class="table">
+    <tr>
+
+        <th>
+            Nazwa części
+        </th>
+        <th>
+            Numer katalogu
+        </th>
+        <th>
+            Samochód
+        </th>
+        <th>
+            Cena zakupu
+        </th>
+        <th>
+            Data zakupy
+        </th>
+        <th>
+            Cena sprzedaży
+        </th>
+        <th>
+            Data sprzedaży
+        </th>
+        <th class="ads-actions"></th>
+    </tr>
+
+    @foreach (var Car in Model)
+    {
+        foreach (var PartModel in Car.PartModel)
+        {
+    <tr>
+
+        <td>
+            @Html.ActionLink(PartModel.PartName, "Details/" + PartModel.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => PartModel.CatalogNumber)
+        </td>
+        <td>
+            @Html.ActionLink(Car.Make + " " + Car.Model, "Details/" + Car.ID, "Car")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => PartModel.PurchaseAmount) zł
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => PartModel.PurchaseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => PartModel.SalesAmount) zł
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => PartModel.SalesDate)
+        </td>
+        <td class="ads-actions">
+            <button type="button" class="btn btn-default no-link">
+                @Html.ActionLink("Edytuj", "Edit/" + PartModel.ID)
+            </button>
+            <button type="button" class="btn btn-danger no-link link-white">
+                @Html.ActionLink("Usuń", "Delete/" + PartModel.ID)
+            </button>
+        </td>
+    </tr>
+        }
+    }
+
+</table>

@@ -1,0 +1,23 @@
+﻿@model ClassicGarageAuth.Models.CarModel
+
+@{
+    ViewBag.Title = "Usuwanie";
+}
+
+<h2>Usuwanie samochodu</h2>
+
+<h3>Czy na pewno chcesz usunąć samochod @Model.Make @Model.Model?</h3>
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <button type="submit" class="btn btn-default no-link">
+                @Html.ActionLink("Wróć", "Owner")
+            </button>
+            <input type="submit" value="Usuń" class="btn btn-danger" /> 
+
+        </div>
+    }
+

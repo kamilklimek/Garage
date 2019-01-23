@@ -1,0 +1,24 @@
+﻿@model ClassicGarageAuth.Models.PartModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Usuwanie części</h2>
+
+<h3>Czy na pewno chcesz usunąć część @Model.PartName</h3>
+<div>
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+
+        <button type="button" class="btn btn-default no-link">
+            @Html.ActionLink("Anuluj", "Owner")
+        </button>
+        <input type="submit" value="Usuń" class="btn btn-danger no-link" />
+    </div>
+    }
+</div>

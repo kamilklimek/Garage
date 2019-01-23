@@ -1,0 +1,69 @@
+﻿@model ClassicGarageAuth.Models.AdsModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Dodaj ogłoszenie</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div class="form-horizontal">
+    <hr />
+    @if (ViewBag.CarsNoExists)
+    {
+        <span>Nie masz żadnych samochód na sprzedaż!</span>
+    }
+    else
+    {
+        <div class="form-group">
+            <div class="col-md-10">
+                <label for="title">Tytuł ogłoszenia</label>
+                <input type="text" name="title" required class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                <label for="CarModelsID">Samochód: </label>
+
+                <select name="CarModelsID" class="form-control">
+                    @foreach (var car in ViewBag.Cars)
+                    {
+                        <option value="@car.ID">@car.Make @car.Model</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <label for="price">Cena</label>
+                <input type="number" name="price" required class="form-control" />
+            </div>
+        </div>
+
+        <input type="hidden" name="IsActive" value="true" />
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>s
+        </div>
+    }
+</div>
+}
+
+<div class="ads-create-action-buttons">
+    <button class="btn btn-primary no-link link-white">
+        @Html.ActionLink("Dodaj swój pierwszy samochód", "Create", "Car")
+    </button>
+    <button class="btn btn-default no-link">
+        @Html.ActionLink("Wróć do ogłoszeń", "Index", "Ads")
+    </button>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

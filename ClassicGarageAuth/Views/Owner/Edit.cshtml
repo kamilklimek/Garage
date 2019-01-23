@@ -1,0 +1,66 @@
+﻿@model ClassicGarageAuth.Models.OwnerModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edycja podstawowych informacji</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ID)
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Imię </label>
+        <div class="col-md-9">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Nazwisko </label>
+        <div class="col-md-9">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Numer telefonu </label>
+        <div class="col-md-9">
+            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Email </label>
+        <div class="col-md-9">
+            <input type="text" class="form-control"   value="@Model.Email" disabled/>
+        </div>
+    </div>
+
+    <input type="hidden" value="@Model.UserID" name="UserID" />
+    <input type="hidden" value="@Model.Email" name="Email" />
+    <div class="form-group">
+        <div class="col-md-offset-3 col-md-9">
+            <input type="submit" value="Zapisz" class="btn btn-primary" />
+            <button type="button" class="btn btn-default no-link">
+                @Html.ActionLink("Anuluj", "Index", "Manage")
+            </button>
+        </div>
+    </div>
+</div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

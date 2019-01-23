@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ClassicGarageAuth.Models.AdsModel>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Moje ogłoszenia</h2>
+
+<button type="button" class="btn btn-primary no-link link-white upper-btn" >
+    @Html.ActionLink("Dodaj ogłoszenie", "Create")
+</button>
+<table class="table ads-table">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            Nazwa ogłoszenia
+        </th>
+        <th>
+            Cena
+        </th>
+        @using Microsoft.AspNet.Identity
+        @if (Request.IsAuthenticated)
+        {
+            <th class="ads-actions"></th>
+        }
+    </tr>
+
+    @foreach (var Ad in Model)
+    {
+        <tr>
+            
+            <td>
+                <img src="@Ad.CarModels.Picture" />
+            </td>
+            <td>
+                @Html.ActionLink(Ad.title, "Details/" + Ad.ID)
+            </td>
+            <td>
+                @Ad.price zł
+            </td>
+            @if (Request.IsAuthenticated)
+            {
+                <td class="ads-actions">
+
+                    @{
+                        var result = "Aktywuj";
+                        var cssResult = "btn-primary";
+                        if (Ad.IsActive)
+                        {
+                            result = "Dezaktywuj";
+                            cssResult = "btn-warning";
+                        }
+
+                    <button type="button" class="btn @cssResult no-link link-white">
+                        @Html.ActionLink(result, "State/" + Ad.ID, "Ads")
+                    </button>
+
+                    }
+                    <button type="button" class="btn btn-default no-link">
+                        @Html.ActionLink("Edytuj", "Edit/" + Ad.ID, "Ads")
+                    </button>
+                    <button type="button" class="btn btn-danger no-link link-white">
+                        @Html.ActionLink("Usuń", "Delete/" + Ad.ID, "Ads")
+                    </button>
+                </td>
+            }
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,56 @@
+﻿@model ClassicGarageAuth.Models.IndexViewModel
+@{
+    ViewBag.Title = "Zarządzaj swoim kontem";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <hr />
+    <div>
+        <h3>Podstawowe</h3>
+        <p><b>Imię: </b>@Model.OwnerModel.FirstName</p>
+        <p><b>Nazwisko: </b>@Model.OwnerModel.LastName</p>
+
+        <p><b>Numer telefonu: </b>@Model.OwnerModel.PhoneNumber</p>
+
+        <p><b>Email: </b>@Model.OwnerModel.Email</p>
+        
+        <button type="button" class="btn btn-primary no-link link-white">
+            @Html.ActionLink("Edytuj", "Edit/" + Model.OwnerModel.ID, "Owner")
+        </button>
+    </div>
+    <hr />
+
+    <div>
+        <h3>Dodatkowe</h3>
+        <p>
+            <b>Hasło:</b>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Zmień hasło", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Utwórz", "SetPassword")
+            }
+            ]
+        </p>
+        <p>
+            <b>Logowania zewnętrzne:</b>
+            @Model.Logins.Count [
+            @Html.ActionLink("Zarządzaj", "ManageLogins") ]
+        </p>
+
+        <p><b>Uwierzytelnianie dwuetapowe:</b>
+        <p>
+            Nie skonfigurowano dostawców uwierzytelniania dwuskładnikowego. Zapoznaj się z <a href="https://go.microsoft.com/fwlink/?LinkId=403804">tym artykułem</a>,
+            aby uzyskać szczegółowe informacje dotyczące konfigurowania tej aplikacji ASP.NET do obsługi uwierzytelniania dwuskładnikowego.
+        </p>
+
+        </p>
+    </div>
+
+</div>

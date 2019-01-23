@@ -1,0 +1,170 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.header {
+    background-image: url("./Images//header.jpg");
+    width: 100%;
+    min-height:500px;
+    object-fit: cover;
+    color:white;
+    padding: 10% 2em;
+    box-sizing: border-box;
+    display:flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__bg {
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: #161719;
+}
+
+.header__title h1 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 8rem;
+}
+
+.header__list {
+    list-style:none;
+    padding: 0;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.popular-ads {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em 0;
+}
+
+.popular-ads > li {
+    flex: 1;
+}
+
+.popular-ads img {
+    width: 100%;
+}
+
+.popular-ads .price {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.list {
+    list-style:none;
+}
+
+
+.info-servis {
+    padding: 2em 0;
+}
+.info-servis img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    margin-bottom: 1em;
+}
+.info-servis > * {  
+    display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+   justify-content: space-between
+
+}
+
+.info-servis .info {
+    height: 75px;
+}
+
+.ads-details {
+    padding-top: 2em;
+}
+
+.ads-details .btn-primary a {
+    color: white;
+}
+
+.ads-details button a {
+    text-decoration: none;
+}
+
+.no-link > a {
+    text-decoration: none;
+}
+
+.link-white > a {
+    color:white;
+}
+
+.ads-add {
+    margin-bottom: 1em;
+}
+
+.ads-create-action-buttons {
+    margin-top: 1em;
+}
+
+.ads-create-action-buttons > * {
+    margin-right: .5em;    
+}
+
+.car-table img{
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.create-car-btn, .upper-btn {
+    margin-bottom: 1em;
+}
+
+.car-table th, .car-table td {
+    text-align: center;
+}
+
+.car-details img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.car-details-actions {
+    margin-top: 2em;
+}
+.ads-actions {
+
+    display:flex;
+    justify-content: flex-end;
+}
+
+.ads-actions > * {
+    margin-left: 1em;
+}
